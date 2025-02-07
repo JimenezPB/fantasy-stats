@@ -3,7 +3,7 @@
     "short_name": "Fantasy Stats",
     "theme_color": "#11111f",
     "background_color": "#ffffff",
-    "display": "browser",
+    "display": "standalone",
     "orientation": "any",
     "scope": "/",
     "start_url": "/",

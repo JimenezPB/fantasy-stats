@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Fantasy Stats",
   description: "Fantasy a otro nviel",
   generator: "Next.js",
-  manifest: "/manifest.json",
+  manifest: "/manifest.webmanifest",
   keywords: ["nextjs", "next14", "pwa", "next-pwa"],
   themeColor: [{ media: "(prefers-color-scheme: dark)", color: "#fff" }],
   viewport:
