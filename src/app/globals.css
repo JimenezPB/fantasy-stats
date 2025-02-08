@@ -7,6 +7,16 @@
   --foreground: #171717;
   --color-points: #4b874b;
   --color-money: #d9d93d;
+  --gold-border: #EFB810;
+  --gold-fill: rgb(239 184 16 / 60%);
+  --silver-border: #C0C0C0;
+  --silver-fill: rgb(192 192 192 / 60%);
+  --bromze-border: #cd7f32;
+  --bromze-fill: rgb(205 127 50 / 60%);
+  --green-border: #4b874b;
+  --green-fill: rgb(75 135 75 / 60%);
+  --red-border: #f72307;
+  --red-fill: rgb(247 35 7 / 60%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,6 +25,16 @@
     --foreground: #ededed;
     --color-points: #4b874b;
     --color-money: #d9d93d;
+    --gold-border: #EFB810;
+    --gold-fill: rgb(239 184 16 / 60%);
+    --silver-border: #C0C0C0;
+    --silver-fill: rgb(192 192 192 / 60%);
+    --bromze-border: #cd7f32;
+    --bromze-fill: rgb(205 127 50 / 60%);
+    --green-border: #4b874b;
+    --green-fill: rgb(75 135 75 / 60%);
+    --red-border: #f72307;
+    --red-fill: rgb(247 35 7 / 60%);
   }
 }
 
@@ -86,6 +106,7 @@ body {
 
 .c-position{
   margin-left: 10px;
+  font-size: 25px;
 }
 
 .c-points-container{
@@ -111,12 +132,12 @@ body {
 }
 
 .c-stats-title {
-  font-size: 8px;
+  font-size: 12px;
   font-weight: bold;
 }
 
 .c-stats-value {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .c-user-container {
@@ -124,4 +145,56 @@ body {
   flex-direction: column;
   align-items: left;
   width: 55%;
+}
+
+.c-image-history-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.history-container{
+  display: flex  ;
+  justify-content: space-evenly;
+  width: 80%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.history-icon {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.history-icon-0 {
+  background-color: var(--background);
+  border: var(--background) 2px solid;
+}
+
+.history-icon-1 {
+  background-color: var(--gold-fill);
+  border: var(--gold-border) 2px solid;
+}
+
+.history-icon-2 {
+  background-color: var(--silver-fill);
+  border: var(--silver-border) 2px solid;
+}
+
+.history-icon-3 {
+  background-color: var(--bromze-fill);
+  border: var(--bromze-border) 2px solid;
+}
+
+.history-icon-4 {
+  background-color: var(--green-fill);
+  border: var(--green-border) 2px solid;
+}
+
+.history-icon-5 {
+  background-color: var(--red-fill);
+  border: var(--red-border) 2px solid;
 }

@@ -4,7 +4,17 @@ export function ClassificationItem(){
     return (
         <div className="classification-item-container">
             <p className="c-position">1</p>
-            <Image src="/default-avatar.jpg" alt={"profile-image"} width={100} height={100} className="profile-img"/>
+            <div className="c-image-history-container">
+                <Image src="/default-avatar.jpg" alt={"profile-image"} width={100} height={100} className="profile-img"/>
+                <div className="history-container">
+                    {/* <span className="history-icon history-icon-0"></span> */}
+                    <span className="history-icon history-icon-1"></span>
+                    <span className="history-icon history-icon-2"></span>
+                    <span className="history-icon history-icon-3"></span>
+                    <span className="history-icon history-icon-4"></span>
+                    <span className="history-icon history-icon-5"></span>
+                </div>
+            </div>
             <div className="c-user-container">
                 <p className="c-username">Boxa</p>
                 <div className="c-stats">
