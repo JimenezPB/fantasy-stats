@@ -11,6 +11,12 @@ export default function Home() {
         <ClassificationItem />
         <ClassificationItem />
         <ClassificationItem />
+        <ClassificationItem />
+        <ClassificationItem />
+        <ClassificationItem />
+        <ClassificationItem />
+        <ClassificationItem />
+        <ClassificationItem />
       </div>
     </div>
   );

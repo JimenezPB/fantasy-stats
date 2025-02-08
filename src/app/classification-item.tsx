@@ -3,9 +3,9 @@ import Image from "next/image";
 export function ClassificationItem(){
     return (
         <div className="classification-item-container">
-            <p>1</p>
+            <p className="c-position">1</p>
             <Image src="/default-avatar.jpg" alt={"profile-image"} width={100} height={100} className="profile-img"/>
-            <div>
+            <div className="c-user-container">
                 <p className="c-username">Boxa</p>
                 <div className="c-stats">
                     <div className="c-stats-container">
