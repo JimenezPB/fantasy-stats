@@ -20,6 +20,86 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-profile-img {
+.profile-img {
   border-radius: 50%;
+  margin: 8px;
+  border: 3px solid white;
+}
+
+.main-container {
+  width: 500px;
+  display: flex;
+  justify-self: center;
+  height: calc(100vh - 20px);
+  background-color: rgba(255, 255, 255, 0.123);
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.classification-item-container {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.classification-item-container + .classification-item-container {
+  margin-top: 16px;
+}
+
+.classification-container{
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.classification-container::-webkit-scrollbar {
+  display: none; /* Para Chrome, Safari y Opera */
+}
+.c-username {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.c-points {
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+}
+
+.c-money{
+  font-size: 16px;
+  color: yellow;
+}
+
+.c-points-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.c-stats {
+  display: flex;
+  flex-direction: row;
+}
+
+.c-stats-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.c-stats-container + .c-stats-container{
+  margin-right: 10px;
+}
+
+.c-stats-title {
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.c-stats-value {
+  font-size: 8px;
 }
