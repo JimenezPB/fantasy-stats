@@ -1,6 +1,6 @@
 'use client'
+import { ClassificationItem } from './components/classification/classification-item';
 import './globals.css'
-import { ClassificationItem } from "./classification-item";
 
 export default function Home() {
   return (
