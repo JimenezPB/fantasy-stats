@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #11111f;
+  --foreground: #ededed;
   --color-points: #4b874b;
   --color-money: #d9d93d;
   --gold-border: #EFB810;
@@ -95,17 +95,28 @@ body {
   border-top: 0px;
 }
 
-.classification-container{
+.center-container{
   width: 100%;
-  height: 100%;
+  height: 95vh;
   overflow-y: scroll;
 }
 
 .classification-container::-webkit-scrollbar {
   display: none; /* Para Chrome, Safari y Opera */
 }
-.c-username {
-  font-size: 20px;
+.c-name-container{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.c-manager{
+  font-size: 12px;
+  margin-top: -5px;
+}
+
+.c-team {
+  font-size: 18px;
   font-weight: bold;
 }
 

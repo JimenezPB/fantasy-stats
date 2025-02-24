@@ -1,9 +1,12 @@
+'use client'
+
 import Image from "next/image";
-import { HistoryIcons } from "./history-icons";
 import 'primeicons/primeicons.css';
+import { redirect } from "next/navigation";
+import { HistoryIcons } from "./history-icons";
 
 function click(){
-    console.log("click");
+    redirect('team/Boxa');
 }
 
 export function ClassificationItem(){
@@ -27,7 +30,10 @@ export function ClassificationItem(){
                 <HistoryIcons />
             </div>
             <div className="c-user-container">
-                <p className="c-username">Boxa</p>
+                <div className="c-name-container">
+                    <p className="c-team">Nombre del equipo</p>
+                    <p className="c-manager">Nombre del manager</p>
+                </div>
                 <div className="c-stats">
                     <div className="c-stats-container">
                         <p className="c-stats-title">MAX</p>
