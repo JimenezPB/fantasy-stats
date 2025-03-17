@@ -1,0 +1,70 @@
+{
+    "classification": [
+        {
+            "equipo": "Xembappe",
+            "puntos": 179,
+            "pago_acumulado": 0,
+            "historico": ["1", "1", "0", "0", "0"]
+        },
+        {
+            "equipo": "Anivaloup",
+            "puntos": 156,
+            "pago_acumulado": 0,
+            "historico": ["2", "5", "0", "0", "0"]
+        },
+        {
+            "equipo": "Boxa",
+            "puntos": 138,
+            "pago_acumulado": 0,
+            "historico": ["3", "3", "0", "0", "0"]
+        },
+        {
+            "equipo": "Xavicill",
+            "puntos": 119,
+            "pago_acumulado": 0,
+            "historico": ["4", "2", "0", "0", "0"]
+        },
+        {
+            "equipo": "Adrieen",
+            "puntos": 114,
+            "pago_acumulado": 0,
+            "historico": ["4", "4", "0", "0", "0"]
+        },
+        {
+            "equipo": "Enterrador",
+            "puntos": 113,
+            "pago_acumulado": 0,
+            "historico": ["4", "4", "0", "0", "0"]
+        },
+        {
+            "equipo": "Pavel",
+            "puntos": 112,
+            "pago_acumulado": 0,
+            "historico": ["4", "4", "0", "0", "0"]
+        },
+        {
+            "equipo": "Anderson",
+            "puntos": 105,
+            "pago_acumulado": 0,
+            "historico": ["4", "5", "0", "0", "0"]
+        },
+        {
+            "equipo": "Julencito",
+            "puntos": 98,
+            "pago_acumulado": 0,
+            "historico": ["5", "5", "0", "0", "0"]
+        },
+        {
+            "equipo": "Peter Lim",
+            "puntos": 87,
+            "pago_acumulado": 0,
+            "historico": ["5", "4", "0", "0", "0"]
+        },
+        {
+            "equipo": "Paco Merte",
+            "puntos": 85,
+            "pago_acumulado": 0,
+            "historico": ["5", "4", "0", "0", "0"]
+        }
+    ]
+}
