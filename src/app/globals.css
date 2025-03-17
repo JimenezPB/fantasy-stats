@@ -81,6 +81,7 @@ body {
   width: 95%;
   border-top: 1px solid #11111f;
   border-bottom: 1px solid #11111f;
+  justify-content: space-evenly;
 }
 
 .classification-item-container:hover {
@@ -101,9 +102,6 @@ body {
   overflow-y: scroll;
 }
 
-.classification-container::-webkit-scrollbar {
-  display: none; /* Para Chrome, Safari y Opera */
-}
 .c-name-container{
   display: flex;
   flex-direction: column;
@@ -141,6 +139,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 60px;
 }
 
 .c-stats {

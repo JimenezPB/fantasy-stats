@@ -2,7 +2,7 @@
 
 import { useParams } from "next/navigation";
 
-export default function User() {
+export default function Equipo() {
     const params = useParams(); // Obtiene el ID desde la URL
     const { teamName } = params;
 
