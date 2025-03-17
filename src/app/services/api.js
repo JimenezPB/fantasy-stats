@@ -1,4 +1,4 @@
-import { auth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, GoogleAuthProvider, signInWithPopup, sendPasswordResetEmail, fetchSignInMethodsForEmail, sendEmailVerification, db, doc, getDoc, getDocs, collection, setDoc, updateDoc, deleteDoc, addDoc, query, where, onSnapshot } from './firebase';
+import { db, doc, getDoc, collection, updateDoc, deleteDoc, addDoc } from './firebase';
 
 const collectionName = 'users';
 
